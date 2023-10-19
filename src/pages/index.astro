@@ -3,14 +3,124 @@
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/venezia/fav.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Venezia FC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="lg:h-screen min-h-screen grid lg:grid-cols-2">
+      <div
+        class="bg-cover bg-center bg-no-repeat max-lg:min-h-[80vh]"
+        style="background-image: url(/venezia/slider-1.jpg);"
+      >
+        <header class="w-full lg:w-1/2 uppercase text-xs">
+          <div
+            class="flex items-center justify-between py-3 px-4 text-white bg-[#ff8800] relative"
+          >
+            <span>Reggiana</span>
+            <span
+              class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+              >22.10.2023</span
+            >
+            <span>Venezia</span>
+          </div>
+          <div
+            class="flex items-center justify-between py-3 px-4 text-white bg-black relative"
+          >
+            <span>IT</span>
+            <span
+              class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+              >Venezia FC</span
+            >
+            <span class="text-base">≡</span>
+          </div>
+          <div
+            class="flex items-center justify-between py-3 px-4 text-white bg-[#006127] relative"
+          >
+            <span>Venezia</span>
+            <span
+              class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+              >3-2</span
+            >
+            <span>Parma</span>
+          </div>
+        </header>
+      </div>
+      <div class="grid grid-cols-2">
+        <div
+          class="bg-no-repeat bg-cover bg-center max-lg:min-h-[50vh] lg:h-[50vh] group relative"
+          style="background-image: url(/venezia/men.jpg);"
+        >
+          <div
+            class="h-full w-full bg-[#006127] text-[#ff8800] p-4 text-4xl lg:text-6xl opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-300"
+          >
+            <span class="font-[Cinzel] uppercase">23/24 <br /> Season</span>
+          </div>
+          <span
+            class="uppercase text-white text-xs absolute bottom-4 left-4 group-hover:text-[#ff8800] transition-all duration-300"
+            >Men</span
+          >
+        </div>
+
+        <div
+          class="bg-no-repeat bg-cover bg-center max-lg:min-h-[50vh] lg:h-[50vh] group relative"
+          style="background-image: url(/venezia/women.jpg);"
+        >
+          <div
+            class="h-full w-full bg-[#ff8800] text-[#006127] p-4 text-4xl lg:text-6xl opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-300"
+          >
+            <span class="font-['Bebas_Neue'] uppercase italic font-bold"
+              >23/24 <br /> Season</span
+            >
+          </div>
+          <span
+            class="uppercase text-white text-xs absolute bottom-4 left-4 group-hover:text-[#006127] transition-all duration-300"
+            >Women</span
+          >
+        </div>
+
+        <div
+          class="bg-no-repeat bg-cover bg-center max-lg:min-h-[50vh] lg:h-[50vh] group relative"
+          style="background-image: url(/venezia/shop.jpg);"
+        >
+          <div
+            class="h-full w-full bg-[#ff8800] text-[#006127] p-4 text-4xl lg:text-6xl opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-300"
+          >
+            <span
+              class="font-['Bebas_Neue'] uppercase italic font-bold leading-"
+              >Offical <br /> Web <br /> Store</span
+            >
+          </div>
+          <span
+            class="uppercase text-white text-xs absolute bottom-4 left-4 group-hover:text-[#006127] transition-all duration-300"
+            >Shop</span
+          >
+        </div>
+
+        <div
+          class="bg-no-repeat bg-cover bg-center max-lg:min-h-[50vh] lg:h-[50vh] group relative"
+          style="background-image: url(/venezia/tickets.jpg);"
+        >
+          <div
+            class="h-full w-full bg-[#006127] text-[#ff8800] p-4 text-4xl lg:text-6xl opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-300"
+          >
+            <span class="font-[Cinzel] uppercase">Purchase</span>
+          </div>
+          <span
+            class="uppercase text-white text-xs absolute bottom-4 left-4 group-hover:text-[#ff8800] transition-all duration-300"
+            >Tickets</span
+          >
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
